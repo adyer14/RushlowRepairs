@@ -4,7 +4,9 @@ h1 {
 }
 
 #nav_bar {
-	color: red;
+	background-color: red;
 	width: 80%;
 	height: 2em;
+	margin: auto;
+
 }
