@@ -1,7 +1,7 @@
 var http = require('http')
   , fs   = require('fs')
   , url  = require('url')
-  , port = 8080;
+  , port = 8000;
 
 var server = http.createServer (function (req, res) {
   var uri = url.parse(req.url)
