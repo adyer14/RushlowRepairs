@@ -28,7 +28,7 @@ var server = http.createServer (function (req, res) {
 })
 
 server.listen(process.env.PORT || port);
-console.log('listening on 8080')
+console.log('listening on 8000')
 
 // subroutines
 
