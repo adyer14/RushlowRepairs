@@ -3,42 +3,48 @@ a {
 }
 
 body {
-	background-color: #1b1645;
+	background-color: white;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-h1 {
-	color: #fa7f15;
+#Brian_Logo {
+	display: block;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 25%;
 }
 
 nav {
-	width: 100%;
+	width: 90%;
 	height: 3em;
-	margin: 0;
-	padding: 0;
+	margin: auto;
 }
 
 nav ul {
 	width: 100%;
 	list-style: none;
-	padding: 0;
-	margin: 0;
 }
 
 nav ul li {
-	background-color: #fa7f15;
-	border-radius: 25px;
-	width: 19%;
+	background-color: #1b1645;
+	border-radius: 15px;
+	width: 15%;
 	display: inline-block;
 	text-align: center;
+
 }
 
 nav ul li a {
 	width: 100%;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	font-size: 1.25em;
 }
 
 li:hover {
-	background-color: yellow;
+	background-color: #fa7f15;
 }

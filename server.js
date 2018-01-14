@@ -19,6 +19,9 @@ var server = http.createServer (function (req, res) {
     case '/js/scripts.js':
       sendFile(res, 'public/js/scripts.js')
       break
+    case '/res/Brian_Logo.jpg':
+      sendFile(res, 'public/res/Brian_Logo.jpg')
+      break
     case '/README.md':
       sendFile(res, 'README.md')
       break
