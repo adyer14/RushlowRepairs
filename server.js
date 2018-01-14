@@ -19,6 +19,30 @@ var server = http.createServer (function (req, res) {
     case '/js/scripts.js':
       sendFile(res, 'public/js/scripts.js')
       break
+    case '/res/Flooring.jpg':
+      sendFile(res, 'public/res/Flooring.jpg')
+      break
+    case '/res/flooring_2.jpg':
+      sendFile(res, 'public/res/flooring_2.jpg')
+      break
+    case '/res/heat.jpg':
+      sendFile(res, 'public/res/heat.jpg')
+      break
+    case '/res/Kitchen.jpg':
+      sendFile(res, 'public/res/Kitchen.jpg')
+      break
+    case '/res/Plowing.jpg':
+      sendFile(res, 'public/res/Plowing.jpg')
+      break
+    case '/res/plumbing.jpg':
+      sendFile(res, 'public/res/plumbing.jpg')
+      break
+    case '/res/Railing_Finish.jpg':
+      sendFile(res, 'public/res/Railing_Finish.jpg')
+      break
+    case '/res/Teamwork.jpg':
+      sendFile(res, 'public/res/Teamwork.jpg')
+      break
     case '/res/Brian_Logo.jpg':
       sendFile(res, 'public/res/Brian_Logo.jpg')
       break
