@@ -1,5 +1,6 @@
 a {
 	color: white;
+	text-decoration: none;
 }
 
 body {
@@ -47,4 +48,8 @@ nav ul li a {
 
 li:hover {
 	background-color: #fa7f15;
+}
+
+.slideshow-container {
+	
 }
