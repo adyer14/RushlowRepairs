@@ -43,8 +43,8 @@ var server = http.createServer (function (req, res) {
     case '/res/Teamwork.jpg':
       sendFile(res, 'public/res/Teamwork.jpg')
       break
-    case '/res/Brian_Logo.jpg':
-      sendFile(res, 'public/res/Brian_Logo.jpg')
+    case '/res/Brian_Logo.png':
+      sendFile(res, 'public/res/Brian_Logo.png')
       break
     case '/README.md':
       sendFile(res, 'README.md')
